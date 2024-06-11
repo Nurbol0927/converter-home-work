@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter HOME WORK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Конвертер </h1>
+        <div class="input-section">
+            <input type="number" id="amount" placeholder="Введите сумму" />
+            <select id="fromCurrency">
+                <option value="KGS">KGS - Кыргызский сом</option>
+                <option value="USD">USD - $ США</option>
+                <option value="EUR">EUR - € Евро</option>
+                <option value="JPY">JPY - Японская ¥</option>
+            </select>
+            <select id="toCurrency">
+                <option value="KGS">KGS - Кыргызский сом</option>
+                <option value="USD">USD - $ США</option>
+                <option value="EUR">EUR - € Евро</option>
+                <option value="JPY">JPY - Японский ¥</option>
+            </select>
+            <button onclick="convertCurrency()"><h3>алмаштыруу</h3></button>
+        </div>
+        <div class="result-section">
+            <h2>Жыйынтык</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
